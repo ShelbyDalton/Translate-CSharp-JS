@@ -10,3 +10,12 @@ console.log("All Pace Names");
 for (const name of names) {
   console.log(name);
 }
+
+console.log("")
+console.log("'The' Place Names")
+
+const theNames = names.filter(name => name.startsWith("The"))
+
+for (theName of theNames) {
+  console.log(theName)
+}
